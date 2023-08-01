@@ -30,5 +30,9 @@ In this project, MongoDB is used as the database. There is only one model named 
   ```
 
   ### How to use this code?
-  This is only a boilerplate. You can clone the repository and rename it for your purpose. If any issues or any suggestions, you can knock me at raihanfahim@gmail.com
+  This is only a boilerplate. You can clone the repository and rename it for your purpose. If any issues or any suggestions, you can knock me at 
+  <img align="left" src="https://raw.githubusercontent.com/RyanFahim/Icons/main/icons8-gmail.svg?token=GHSAT0AAAAAACFRU3E4ESOZVR5HWBIKEQTGZGIPS3A" alt="Fahim" width="30px"/>
+  raihanfahim@gmail.com
 
+## Contact me 
+<a href="https://www.linkedin.com/in/rrfahim/"><img align="left" src="https://raw.githubusercontent.com/yushi1007/yushi1007/main/images/linkedin.svg" alt="Fahim" width="30px"/></a>
