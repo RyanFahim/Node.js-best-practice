@@ -1,16 +1,16 @@
 # Node.js best practice
 
 This is a Node.js example code for the best practices of Node.js. 
- [Inspired by](https://github.com/goldbergyoni/nodebestpractices)
+ Inspired by [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
 
 ## About the project
-In this project , mongoDB is used as the database. There is only one model named User where the CRUD is applied following the best practice of Node js
+In this project, MongoDB is used as the database. There is only one model named User where the CRUD is applied following the best practice of Node js
 
 #### N.B. Soon MySql will also be added
 
  ## Installation
 
- First open your terminal and clone the repository
+ First, open your terminal and clone the repository
   
   ```bash
     git clone https://github.com/RyanFahim/Node.js-best-practice.git
@@ -23,12 +23,12 @@ In this project , mongoDB is used as the database. There is only one model named
   npm i
   ```
 
-  After installing node module run the server to start the project
+  After installing the node module run the server to start the project
 
   ```bash
   npm start
   ```
 
   ### How to use this code?
-  This is only a boilerplate. You can clone the repository and rename it for your own purpose. If any issue or any suggestions, you can knock me at raihanfahim@gmail.com
+  This is only a boilerplate. You can clone the repository and rename it for your purpose. If any issues or any suggestions, you can knock me at raihanfahim@gmail.com
 
