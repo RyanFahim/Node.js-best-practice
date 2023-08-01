@@ -1,0 +1,50 @@
+@idd = {{get_id.response.body.$.body._id}}
+
+@token={{get_token.response.body.$.token}}
+###
+# @name get_id
+POST http://localhost:3000/users/add
+content-type: application/json
+
+{
+    "username": "abcd",
+    "password": "123",
+    "email": "abcd@email.com",
+    "department": "Engineering"
+}
+
+###
+POST http://localhost:3000/users/getAll
+content-type: application/json
+Authorization: Bearer {{token}}
+
+
+###
+POST http://localhost:3000/users/getIndividual?id={{idd}}
+content-type: application/json
+
+
+
+###
+POST http://localhost:3000/users/update?id={{idd}}
+content-type: application/json
+
+{
+    "username": "Bahiful name change",
+    "email": "b@email.com",
+    "department": "English"
+}
+
+###
+POST http://localhost:3000/users/delete?id={{idd}}
+content-type: application/json
+
+###
+# @name get_token
+POST http://localhost:3000/users/login
+content-type: application/json
+
+{
+    "username": "abc",
+    "password": "123"
+}

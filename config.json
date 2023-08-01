@@ -1,0 +1,13 @@
+{
+    "mongodb": {
+        "mongoURL": "mongodb://localhost:27017/practice",
+        "mongoOptions": {
+            "useNewUrlParser": true,
+            "useUnifiedTopology": true
+        },
+        "port": 3000
+    },
+    "jwt":{
+        "jwtSecret" : "Fahim"
+    }
+}
